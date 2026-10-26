@@ -202,10 +202,7 @@ onclick="alert('Hello, Osamu!');">
 <input type="button" value="あいさつ" onclick="sayhello64();">
 <input type="button" value="太郎" onclick="taro64();">
 <input type="button" value="花子" onclick="hanako64();">
-<h1>練習問題６.４</h1>
-<input type="button" value="あいさつ" onclick="sayhello64();">
-<input type="button" value="太郎" onclick="taro64();">
-<input type="button" value="花子" onclick="hanako64();">
+
 <!DOCTYPE html>
 <html lang="ja"> 
 <head> 
@@ -219,23 +216,25 @@ onclick="alert('Hello, Osamu!');">
     </body>
 </html>
     </body>
+
 </html>
 <script src="ex6-6.js"></script>
 </head>
- <h1>練習問題6-6 引数の練習</h1>
+
+<h1>練習問題6-6 引数の練習</h1>
 <input type="button" value="あいさつ" onclick="sayhello66();">
 <input type="button" value="太郎" onclick="someone('太郎');">
 <input type="button" value="花子" onclick="someone('花子');">
 </body>
- <h1>練習問題6.7</h1> 
-<button onclick="someone('こんにちは、" + who + "さん！')">レイ</button>
-<button onclick="someone('こんにちは、" + who + "さん！')">シンジ</button>
-<button onclick="someone('こんにちは、" + who + "さん！')">アスカ</button>
-<script>
-function someone(who) {
- console.log("こんにちは、" + who + "さん！");
-"太郎"=who;
-}
-</script>
 
- 
+
+</html>
+<script src="ex6-7.js"></script>
+</head>
+
+<h1>練習問題6.7</h1> 
+<input type="button" value="あいさつ" onclick="sayhello67();">
+<input type="button" value="太郎" onclick="someone('レイ,シンジ,アスカ');">
+<input type="button" value="花子" onclick="someone('レイ,シンジ,アスカ');">
+</body>
+
